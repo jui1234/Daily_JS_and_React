@@ -16,6 +16,8 @@ import SumOfAllUsingMemo from './components/sumofallevenusingmemo';
 import PrimeNumbersuingUsecallback from './components/allPrimeUsingCallBack';
 import PrimeWithDebouncingwithInput from './components/primewithdebouncing';
 import NumberScrollFib from './components/scrollwithfibo';
+import ErrorBoundry from './components/ErrrorCompoenet';
+import ErrorBoundryWrapper from './components/ErrorWrapperComponent';
 
 
 const ReactFiber=React.lazy(()=>import('./components/reactfiber'))
@@ -95,6 +97,9 @@ function App() {
  <PrimeNumbersuingUsecallback/>
  <PrimeWithDebouncingwithInput/>
  <NumberScrollFib/>
+ <ErrorBoundryWrapper>
+ <ErrorBoundry/>
+ </ErrorBoundryWrapper>
  {/* <VirtualizationComponent/> */}
  </>
    
