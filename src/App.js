@@ -19,6 +19,7 @@ import NumberScrollFib from './components/scrollwithfibo';
 import ErrorBoundry from './components/ErrrorCompoenet';
 import ErrorBoundryWrapper from './components/ErrorWrapperComponent';
 import TimerConceptProject from './components/timerConceptProject';
+import TimerStopper from './components/timeStopper';
 
 
 const ReactFiber=React.lazy(()=>import('./components/reactfiber'))
@@ -102,6 +103,7 @@ function App() {
  <ErrorBoundry/>
  </ErrorBoundryWrapper>
  <TimerConceptProject/>
+ <TimerStopper/>
  {/* <VirtualizationComponent/> */}
  </>
    
