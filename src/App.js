@@ -20,6 +20,8 @@ import ErrorBoundry from './components/ErrrorCompoenet';
 import ErrorBoundryWrapper from './components/ErrorWrapperComponent';
 import TimerConceptProject from './components/timerConceptProject';
 import TimerStopper from './components/timeStopper';
+import InputDebouncing from './components/inputDebouncing';
+import CountThrottling from './components/countThrottling';
 
 
 const ReactFiber=React.lazy(()=>import('./components/reactfiber'))
@@ -104,6 +106,8 @@ function App() {
  </ErrorBoundryWrapper>
  <TimerConceptProject/>
  <TimerStopper/>
+ <InputDebouncing/>
+ <CountThrottling/>
  {/* <VirtualizationComponent/> */}
  </>
    
