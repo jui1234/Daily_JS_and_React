@@ -18,7 +18,7 @@ export function isPalindromeWithoutConvertingToSTring(number){
     while(number>0){
         let lastdigit=number%10;//this gives us the last digit 
         let reversed=reversed*10+lastdigit;// this will give us the reversed number 
-        let newnumber=Math.floor(number/10);// this will give us the number after removing the last digit 
+        let number=Math.floor(number/10);// this will give us the number after removing the last digit 
     }
 
     return orignal===reversed;
