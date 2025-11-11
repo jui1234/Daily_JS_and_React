@@ -20,4 +20,12 @@ function mergerTwoArray(arr1,arr2){
 
 console.log("result",mergerTwoArray([1,2,3,4],[3,4,2,6]))
 
-export default {mergerTwoArray}
+const mergeTwoSortedArrya=(arr1,arr2)=>{
+  const mergeArray=[...arr1,...arr2];
+  return mergeArray.sort((a,b)=>a-b);
+//   return mergeArray;
+}
+
+console.log(mergeTwoSortedArrya([1, 3, 5, 7],[2, 4, 6, 8]))
+
+export default {mergerTwoArray,mergeTwoSortedArrya};
