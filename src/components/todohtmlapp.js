@@ -48,7 +48,7 @@ return(
     </div>
     <ul style={{display:'flex',flexDirection:'column',gap:'10px'}}>
       {todoList.map((todo)=>(
-        <div key={todo.id} >
+        <div key={todo.id} style={{display:'flex',flexDirection:'column',gap:'10px'}} >
          <input type="checkBox" checked={todo.completed} onChange={()=>{handleToggleComplete(todo.id)}}></input>
         <li >{todo.text}</li><button onClick={()=>handleDeleteTodo(todo.id)}>Delete</button>
         </div>
