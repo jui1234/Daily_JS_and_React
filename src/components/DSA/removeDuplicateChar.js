@@ -4,6 +4,7 @@ const uniqueChar=(str)=>{
     for(let i=0;i<=conver.length-1;i++){
     if(!unique[conver[i]]){
         unique[conver[i]]=true;
+        
     }
     }
     
