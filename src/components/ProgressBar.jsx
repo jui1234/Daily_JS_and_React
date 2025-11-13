@@ -1,7 +1,7 @@
 import { clear } from "@testing-library/user-event/dist/clear";
 import { useEffect, useRef, useState } from "react";
 
-export default function LodderComponent(){
+export default function ProgressBar(){
     const [increseLodder,setIncreselodder]=useState(0);
     const timerRef=useRef(null);
 
