@@ -38,7 +38,7 @@ const resetTimer=(()=>{
 })
     return(
         <>
-        <>This is an interval which auto stops when it reaches 00:00</>
+        {/* <>This is an interval which auto stops when it reaches 00:00</> */}
         <div>{displayFunction(timeLeft)}</div>
         <button onClick={startTimer}>START</button>
         <button onClick={stopTimmer}>STOP</button>

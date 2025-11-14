@@ -29,6 +29,7 @@ import TodoListHTMLCSSApp from './components/todohtmlapp';
 import LodderComponent from './components/ProgressBar';
 import LoaderComponent from './components/loaderComponent';
 import ProgressBar from './components/ProgressBar';
+import DragDrop from './components/Dragdrop';
 
 
 const ReactFiber=React.lazy(()=>import('./components/reactfiber'))
@@ -111,15 +112,18 @@ function App() {
  <ErrorBoundryWrapper>
  <ErrorBoundry/>
  </ErrorBoundryWrapper>
- <TimerConceptProject/>
- <TimerStopper/>
  <InputDebouncing/>
- <CountThrottling/> */}
- <CountFunt/>
+ <CountThrottling/> */} 
+ {/* <CountFunt/> */}
  {/* <TodoList/> */}
- <TodoListHTMLCSSApp/>
- <ProgressBar/>
- <LoaderComponent/>
+ {/* <TodoListHTMLCSSApp/> */}
+ {/* <ProgressBar/> */}
+ {/* <LoaderComponent/> */}
+ {/* <TodoList/> */}
+ {/* <TimerConceptProject/> */}
+ {/* <TimerStopper/> */}
+ <DragDrop/>
+
  {/* <Testfun message={["Message 1","Message 2","Message 3","Message 4","Message 5","Message 6","Message 7","Message 8","Message 9","Message 10"]}/> */}
  {/* <VirtualizationComponent/> */}
  </>

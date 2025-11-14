@@ -31,6 +31,7 @@ export default function LoaderComponent() {
           borderRadius: "50%",
           transform: `rotate(${loaderCount}deg)`,
           transaction: 'transform 0.1s linear',
+          // animation: 'spin 1s linear infinite',
         }}
       ></div>
 

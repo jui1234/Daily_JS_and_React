@@ -33,8 +33,8 @@ export default function ProgressBar(){
         else return 'green';
     }
     return(
-        <div>
-           <div style={{backgroundColor:`${getColor(increseLodder)}`,transition:'width 0.1s ease-in-out',width:`${increseLodder}%`}}>{increseLodder}</div>
+        <div style={{display:'flex',justifyContent:'start',alignItems:'center'}}>
+           <div style={{justifyContent:'center',textAlign:'center',backgroundColor:`${getColor(increseLodder)}`,transition:'width 0.1s ease-in-out',width:`${increseLodder}%`}}>{increseLodder}%</div>
         </div>
     )
 }
